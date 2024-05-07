@@ -25,7 +25,7 @@
 Для запуска backend-а необходим .net 8 sdk.
 
 1. Переходим в папку [Frontend-приложения](https://github.com/LehaIvanov/2-lab-baby-swagger/tree/main/Frontend/ClientApp), и запускаем в ней команду `npm install`
-2. Затем запускам файл [run.bat](https://github.com/LehaIvanov/2-lab-baby-swagger/blob/main/run.bat)
+2. Затем запускаем файл [run.bat](https://github.com/LehaIvanov/2-lab-baby-swagger/blob/main/run.bat)
 3. Должно запуститься 3 консоли: API, Frontent и vite-сервер
-4. Далее в браузере открываем url http://localhost:5006/ , должно открыться приложение
+4. Далее в браузере открываем url [http://localhost:5006](http://localhost:5006), должно открыться приложение
 5. Клиентский код находится в папке [Frontend/ClientApp](https://github.com/LehaIvanov/2-lab-baby-swagger/tree/main/Frontend/ClientApp)
