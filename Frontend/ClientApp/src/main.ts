@@ -10,12 +10,12 @@ const createHtmlNode = (htmlString: string | string[]) => {
 
 const createHtml = () => {
   return `
-<div class="request request-get">
-  <div class="request-header">
-    <button class="request-summary">
-      <div class="request-summary-method">GET</div>
-      <span class="request-summary-path">/Users</span>
-      <div class="request-summary-arrow"><img class="arrow" src=${arrowIcon} /></div>
+<div class="route route-get">
+  <div class="route-header">
+    <button class="route-summary">
+      <div class="route-summary-method">GET</div>
+      <span class="route-summary-path">/Users</span>
+      <div class="route-summary-arrow"><img class="arrow" src=${arrowIcon} /></div>
     </button>
   </div>
 </div>`;

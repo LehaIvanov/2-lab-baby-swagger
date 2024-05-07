@@ -52,7 +52,7 @@ textarea {
   box-sizing: border-box;
 }
 
-.request {
+.route {
   display: flex;
   flex-direction: column;
   border: 1px solid #000;
@@ -60,16 +60,16 @@ textarea {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.19);
 }
 
-.request-get {
+.route-get {
   background: rgba(97, 175, 254, 0.1);
   border-color: #61affe;
 }
 
-.request-header {
+.route-header {
   padding: 5px;
 }
 
-.request-summary {
+.route-summary {
   background-color: inherit;
   cursor: pointer;
   width: 100%;
@@ -77,7 +77,7 @@ textarea {
   align-items: center;
 }
 
-.request-summary-method {
+.route-summary-method {
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -88,11 +88,11 @@ textarea {
   border-radius: 3px;
 }
 
-.request-get .request-summary-method {
+.route-get .route-summary-method {
   background-color: #61affe;
 }
 
-.request-summary-path {
+.route-summary-path {
   font-family: monospace;
   font-size: 16px;
   font-weight: 600;
@@ -100,11 +100,11 @@ textarea {
   color: #3b4151;
 }
 
-.request-summary-arrow {
+.route-summary-arrow {
   flex: 1 1 auto;
 }
 
-.request-summary-arrow .arrow {
+.route-summary-arrow .arrow {
   display: block;
   margin-right: 0;
   margin-left: auto;
